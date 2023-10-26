@@ -41,7 +41,7 @@ Você vai perceber que é necessário passar uma cor para os styled-components. 
 # Exercício 3
  Implemente a função de evoluir o Pokemon. Nessa função de onClick, você precisa modificar o estado criado no App.js para que, ao clicar, o Pokemon evolua pra sua próxima forma, se isso for possível.
 Perceba que alguns pokemons evoluem e outros não.
-Para isso, você precisa modificar os dados de dentro do objeto salvo no useState. Através de um spread operator, modifique apenas os dados necessários para que o pokemon evolua: 
+Para isso, você precisa modificar os dados de dentro do objeto salvo no useState: 
 
 - Cor
 - Imagem
