@@ -11,6 +11,8 @@ export default function PokemonCard({ pichauEvoluido, CharizardEvoluido, pokemon
       setPokemon(pichauEvoluido)
     } else if (pokemon.name === 'Charizard') {
       setPokemon1(CharizardEvoluido)
+    } else {
+      alert('Pokemon já evoluido')
     }
 
   }
